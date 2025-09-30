@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Catálogo de Carros</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Entre em Contato</h2>
+        <p>Preencha o formulário abaixo ou entre em contato pelos nossos canais de atendimento:</p>
+        <div class="contato-info">
+            <p><strong>Telefone:</strong> (XX) XXXX-XXXX</p>
+            <p><strong>E-mail:</strong> contato@seulojadecarros.com</p>
+            <a href="https://wa.me/55SEUNUMERO" target="_blank" class="btn-whatsapp">Fale Conosco pelo WhatsApp</a>
+        </div>
+        <form action="#" method="POST" class="contato-form">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Catálogo de Carros. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
